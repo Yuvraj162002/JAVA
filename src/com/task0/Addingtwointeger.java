@@ -1,9 +1,9 @@
 package com.task0;
-import  java .util.Scanner;
-public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
+import java.util.Scanner;
+
+public class Addingtwointeger {
+    public   static  void main(String[]args){
         System.out.println("enter the value of integer 1");
         Scanner sc = new Scanner(System.in);
         int  a1 = sc.nextInt();
