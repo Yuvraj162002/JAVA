@@ -1,3 +1,5 @@
+package com.task0.DecisionMakingAndLoop;
+
 import java.util.Scanner;
 
 public class DisplayFibonacciSeries {
