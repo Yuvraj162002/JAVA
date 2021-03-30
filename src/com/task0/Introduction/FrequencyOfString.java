@@ -1,4 +1,4 @@
-package com.task0;
+package com.task0.Introduction;
 
 public class FrequencyOfString {
     public  static void main(String[]args){
