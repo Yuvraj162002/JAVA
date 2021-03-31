@@ -19,6 +19,6 @@ public class StringCompareEqualtoAndEqual {
         System.out.println(name1.equals(name3));
         System.out.println(name1==name2);///(==)this operator check the refernce of two variable it not check the value..
         System.out.println(name1==name3);
-        S
+
     }
 }
