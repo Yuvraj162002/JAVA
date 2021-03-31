@@ -1,23 +1,17 @@
 package com.task0.String;
 
-import javax.print.attribute.DateTimeSyntax;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
+import java.util.Locale;
 
-//public class StringToDate {
-    //public static void main(String[] args){
-       //// String date = "25\05\2021";
-       // SimpleDateFormat formatter = new SipleDateFormat("dd-MMM-yyyy");
-        //Date date = formatter.parse(st)
-     //   try {
-          //  Date sdate = new SimpleDateFormat("dd/MM/yyyy").format(date);
-           // System.out.println(date+"\t"+sdate);
-        ////} catch (ParseException e) {
-            //e.printStackTrace();
-      //  }
-        //System.out.println(date+"\t"+sdate);
-    //}
-//}
+public class StringToDate {
+    public static void main(String[] args) {
+
+        String date = "July 25, 2017";
+        //String date = "2021-05-12";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy", Locale.ENGLISH);
+        LocalDate sdate = LocalDate.parse(date, formatter);
+        System.out.println(sdate);
+
+    }
+}
