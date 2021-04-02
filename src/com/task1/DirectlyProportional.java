@@ -48,8 +48,8 @@ public class DirectlyProportional {
         for(int i=0;i<x.length;i++){
             y[i] = sc.nextInt();
         }
-        boolean b = isDirectlyProportional(x,y);
-        if(b){
+        boolean result = isDirectlyProportional(x,y);
+        if(result){
             System.out.println("x and y are directly proportional");
         }
         else{
